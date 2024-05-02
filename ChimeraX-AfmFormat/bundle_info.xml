@@ -16,7 +16,7 @@ will be displayed without the ChimeraX- prefix.
 
   <!-- Synopsis is a one-line description
        Description is a full multi-line description -->
-  <Synopsis>Reading and saving AFM format files in ChimeraX</Synopsis>
+  <Synopsis>Reading AFM format files in ChimeraX</Synopsis>
   <Description>This bundle adds support for the AFM file format, allowing ChimeraX to read and save volume data in this format.
 
   </Description>

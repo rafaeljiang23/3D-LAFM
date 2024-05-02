@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: ChimeraX-AfmFormat
 Version: 0.1
-Summary: Reading and saving AFM format files in ChimeraX
+Summary: Reading AFM format files in ChimeraX
 Home-page: https://www.rbvi.ucsf.edu/chimerax/
 Author: UCSF RBVI
 Author-email: chimerax@cgl.ucsf.edu

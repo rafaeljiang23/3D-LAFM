@@ -43,30 +43,6 @@ class _MYAFMAPI(BundleAPI):
                     from .io import read_afm
                     return read_afm(session, path)
             return AFMOpenerInfo()
-        
-        elif mgr == session.save_command:
-            from chimerax.save_command import SaverInfo
-            class AfmSaverInfo(SaverInfo):
-                def save(self, session, path, *, models=None, **kw):
-                    if models is None:
-                        models = session.models.list()  # Get all models if none provided
-                        #raise UserError("No models provided for saving.")
-                    # The 'save' method is called to save a file,
-                    # There is no return value.
-                    #
-                    # This bundle supports an optional 'structures'
-                    # keyword arument to the save command and
-                    # therefore will have the 'structures' argument
-                    # to this function provided with whatever
-                    # value the user supplied, if any.  The
-                    # 'save_args' property below informs the
-                    # "save command" manager of the optional
-                    # keywords and their value types that this
-                    # bundle supports.
-                    from .io import save_afm
-                    return save_afm(session, path, models, **kw)
-            return AfmSaverInfo()
-
 
 # Create the ``bundle_api`` object that ChimeraX expects.
 bundle_api = _MYAFMAPI()
