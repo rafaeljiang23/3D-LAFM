@@ -1,5 +1,5 @@
 # 3D-LAFM
-This is a workflow to construct 3D-LAFM density maps, build 3D-LAFM-MDFF force field (UAFM), and encode/decode '.afm' (AFM1) file from (HS-)AFM experiments. The codes are developed in BIO-AFM-LAB at Weill Cornell Medicine under the supervision of Professor Simon Scheuring.
+This is a workflow to construct 3D-LAFM density maps, build 3D-LAFM-MDFF force fields (UAFM), and encode/decode '.afm' (AFM1) files from (HS-)AFM experiments. The codes are developed in BIO-AFM-LAB at Weill Cornell Medicine under the supervision of Professor Simon Scheuring.
 
 Developer: Yining Jiang, Zhaokun Wang
 
