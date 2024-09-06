@@ -1,0 +1,7 @@
+ChimeraX_AfmFormat.egg-info/PKG-INFO
+ChimeraX_AfmFormat.egg-info/SOURCES.txt
+ChimeraX_AfmFormat.egg-info/dependency_links.txt
+ChimeraX_AfmFormat.egg-info/requires.txt
+ChimeraX_AfmFormat.egg-info/top_level.txt
+src/__init__.py
+src/io.py

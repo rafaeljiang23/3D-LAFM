@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ChimeraX-AfmFormat
+Version: 0.1
+Summary: Reading AFM format files in ChimeraX
+Home-page: https://www.rbvi.ucsf.edu/chimerax/
+Author: UCSF RBVI
+Author-email: chimerax@cgl.ucsf.edu
+Classifier: Framework :: ChimeraX
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Freeware
+Classifier: Environment :: MacOS X :: Aqua
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: ChimeraX :: Bundle :: General :: 1,1 :: chimerax.afm ::  :: 
+Classifier: ChimeraX :: Provider :: AFM :: data formats :: suffixes:.afm :: nicknames:afm :: category:"Volume data" :: synopsis:"AFM format" :: encoding:utf-8
+Classifier: ChimeraX :: Provider :: AFM :: open command :: want_path:true
+Classifier: ChimeraX :: Provider :: AFM :: save command
+Requires-Python: >=3.7
+Requires-Dist: ChimeraX-Core~=1.4
+
+This bundle adds support for the AFM file format, allowing ChimeraX to read and save volume data in this format.
