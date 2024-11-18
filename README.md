@@ -17,16 +17,16 @@ NOTE: Any usage of the codes should cite the publication mentioned above.
 
 ## Installation instructions: 
 1. The codes require installation of MATLAB (MathWorks) 2023b. An installation guide can be found at: https://www.mathworks.com/help/install/.
-2. MIJI is recommanded (not required) for visualizing data. An installation guide can be found at: https://www.mathworks.com/matlabcentral/fileexchange/47545-mij-running-imagej-and-fiji-within-matlab.
+2. MIJI is recommanded (not required) for visualizing data. An installation guide can be found at: https://www.mathworks.com/matlabcentral/fileexchange/47545-mij-running-imagej-and-fiji-within-matlab. If MIJI is not installed, user should comment out any code that uses MIJI for visualization (lines starting sith "MIJ.xxx").
 3. The codes require installation of Python 3.9.6.
-4. The installation should take less than one hour on a "normal" desktop computer
+4. The installation should take less than one hour on a "normal" desktop computer.
 
 ## General instructions:
 These codes comprise of four parts:
 ### 1. 3D-LAFM 
 Note: These codes are developed to construct 3D-LAFM detection stack (voxels) 3D-LAFM density maps (voxels_hs) from (HS-)AFM data.
 #### Main scripts:
-1. tDLAFM_script_v12.m
+1. tDLAFM_script_v12b.m (tDLAFM_script_v12b.m provides more details about tDLAFM_script_v12.m, No modifications or amendments have been made to the code) 
 #### Helper functions:
 1. tDAFM_voxels_v4.m
 2. tDAFM_v12b_algo_conv.m
@@ -64,7 +64,7 @@ User should download the entire bundle (ChimeraX-AfmFormat) and the UCSF Chimera
 ### 4. UAFM force field
 Note: These codes are developed to construct AFM force field UAFM for 3D-LAFM-MDFF simulations
 #### Main scripts:
-1. UAFM_tDLAFM_MDFF_script_v2.m
+1. UAFM_tDLAFM_MDFF_script_v2b.m  (UAFM_tDLAFM_MDFF_script_v2b.m provides more details about UAFM_tDLAFM_MDFF_script_v2.m, No modifications or amendments have been made to the code) 
 
 #### Helper functions:
 N/A
