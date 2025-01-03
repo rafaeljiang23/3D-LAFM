@@ -1,0 +1,53 @@
+<!--
+ChimeraX bundle names must start with "ChimeraX-"
+to avoid clashes with package names in pypi.python.org.
+When uploaded to the ChimeraX toolshed, the bundle
+will be displayed without the ChimeraX- prefix.
+-->
+
+<BundleInfo name="ChimeraX-AfmFormat"
+	    version="0.1" package="chimerax.afm"
+  	    minSessionVersion="1" maxSessionVersion="1">
+
+  <!-- Additional information about bundle source -->
+  <Author>UCSF RBVI</Author>
+  <Email>chimerax@cgl.ucsf.edu</Email>
+  <URL>https://www.rbvi.ucsf.edu/chimerax/</URL>
+
+  <!-- Synopsis is a one-line description
+       Description is a full multi-line description -->
+  <Synopsis>Reading AFM format files in ChimeraX</Synopsis>
+  <Description>This bundle adds support for the AFM file format, allowing ChimeraX to read and save volume data in this format.
+
+  </Description>
+
+  <!-- Categories is a list where this bundle should appear -->
+  <Categories>
+    <Category name="General"/>
+  </Categories>
+
+  <!-- Dependencies on other ChimeraX/Python packages -->
+  <Dependencies>
+    <Dependency name="ChimeraX-Core" version="~=1.4"/>
+  </Dependencies>
+
+    <!-- Register AFM format as one of the supported input file formats -->
+  <Providers manager="data formats">
+    <Provider name="AFM" suffixes=".afm" nicknames="afm" category="Volume data" synopsis="AFM format" encoding="utf-8" />
+  </Providers>
+
+  <Providers manager="open command">
+    <Provider name="AFM" want_path="true" />
+  </Providers>
+
+  <Providers manager="save command">
+    <Provider name="AFM" />
+  </Providers>
+
+  <Classifiers>
+    <!-- Development Status should be compatible with bundle version number -->
+    <PythonClassifier>Development Status :: 3 - Alpha</PythonClassifier>
+    <PythonClassifier>License :: Freeware</PythonClassifier>
+  </Classifiers>
+
+</BundleInfo>
