@@ -50,9 +50,9 @@ N/A
 #### Instruction
 User should run the main scripts. Operation details are provided within the scripts.
 
-### 3. ChimeraX-AfmFormat_v2
+### 3. ChimeraX-AfmFormat_v3
 Note: These codes are developed to allow direct access to '.afm' file using ChimeraX (UCSF).
-Note: ChimeraX-AfmFormat (original version) has a bug for Windows system, which has been solved in version 2.
+Note: ChimeraX-AfmFormat (original version v1 and v2) has problems handling file directory/path, which has been solved in version 3.
 #### Main scripts:
 N/A
 
@@ -60,7 +60,7 @@ N/A
 N/A
 
 #### Instruction
-User should download the entire bundle (ChimeraX-AfmFormat_v2) and the UCSF ChimeraX software. Operation details are provided in the "Methods" sections of the manuscript and its supplementary materials file. 
+User should download the entire bundle (ChimeraX-AfmFormat_v3) and the UCSF ChimeraX software. Operation details are provided in the "Methods" sections of the manuscript and its supplementary materials file. 
 
 ### 4. UAFM force field
 Note: These codes are developed to construct AFM force field UAFM for 3D-LAFM-MDFF simulations
